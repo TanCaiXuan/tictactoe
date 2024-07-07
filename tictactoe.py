@@ -27,15 +27,15 @@ class TicTacToe:
    
     def check_win_condition(self):
         win_conditions = [
-            # rows
+            # row
             ('top_left', 'top_center', 'top_right'),
             ('mid_left', 'mid_center', 'mid_right'),
             ('btm_left', 'btm_center', 'btm_right'),
-            # columns
+            # col
             ('top_left', 'mid_left', 'btm_left'),
             ('top_center', 'mid_center', 'btm_center'),
             ('top_right', 'mid_right', 'btm_right'),
-            # diagonals
+            # diagonal
             ('top_left', 'mid_center', 'btm_right'),
             ('top_right', 'mid_center', 'btm_left'),
         ]
